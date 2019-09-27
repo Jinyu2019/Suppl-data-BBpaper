@@ -15,9 +15,9 @@ Table S5. The annotations of 734 cancer cell lines. The four columns are the can
 
 Table S6. Drug response data (i.e. common logarithm of the IC50 readout) for 734 cancer cell lines and 201 drugs. The first column shows the COSMIC identifiers of the 734 cancer cell lines, and the first row shows the 201 drugs. 
 
-Table S7. The protein--protein interaction (PPI) network involving 7136 proteins encoded by the corresponding genes from the 8046 genes appearing in the gene expression profiles. This network is extracted from the PathwayCommons database (http://www.pathway commons.org/, accessed 11 March 2019). In this table, each row represents a link in this PPI network.
+Table S7. Drug response data (i.e. the area under the drug response curve, AUC readout) for 734 cancer cell lines and 201 drugs. The first column shows the COSMIC identifiers of the 734 cancer cell lines, and the first row shows the 201 drugs.
 
-Table S8. The annotations of 201 drugs. The four columns show the drug names, synonyms, drug primary targets and targeted pathways for 201 drugs, respectively. 
+Table S8. The protein--protein interaction (PPI) network involving 7136 proteins encoded by the corresponding genes from the 8046 genes appearing in the gene expression profiles. This network is extracted from the PathwayCommons database (http://www.pathway commons.org/, accessed 11 March 2019). In this table, each row represents a link in this PPI network.
 
 Table S9. Drugs' structural features. This table shows nine types of molecular fingerprints for 175 out of 201 drugs, where we did not find out the structural information for the other 26 drugs.  Each sheet records a binary matrix where each row represents a drug and each column represents a structural feature, and 1 indicates the drug presents the structural feature. 
 The features with zero value across all the drugs are removed from the tables.
@@ -41,11 +41,10 @@ Table S11. 71 groups for 8046 genes in the gene expression profiles (see Table S
 
 Table S12. Drug groups. 201 drugs are classified into 23 groups, each containing drugs targeting the same pathway separated by semicolons in the second column. 
 
-Table S13. Drug response data (i.e. the area under the drug response curve, AUC readout) for 734 cancer cell lines and 201 drugs. The first column shows the COSMIC identifiers of the 734 cancer cell lines, and the first row shows the 201 drugs.
 
 ############# CCLE_DATASET #############
 
-Table S1 -- S13 are organized similarly with those in GDSC_DATASET.
+Table S13， S16 -- S26 are organized similarly with those in GDSC_DATASET.
 
 Table S14. MicroRNA expression profiles for 385 cancer cell lines and 734 microRNAs. The first column shows the identifiers of the 385 cancer cell lines, and the first row shows the symbols of the 734 microRNAs. 
 
@@ -53,19 +52,19 @@ Table S15. Protein expression profiles (Reverse Phase Protein Array (RPPA) data)
 
 ############# NCI60_DATASET #############                                                 
 
-Table S1 -- S14 are organized similarly with those in CCLE_DATASET. 
+Table S27 -- S39 are organized similarly with those in CCLE_DATASET. 
 
-Different with the GDSC and CCLE datasets, in the NCI-60 dataset, drug activity levels expressed as 50% growth-inhibitory levels (GI50). The entries in Table S6 are z-score from negative log10[GI50(molar)] data across NCI-60 for single drug.
+Different with the GDSC and CCLE datasets, in the NCI-60 dataset, drug activity levels expressed as 50% growth-inhibitory levels (GI50). The entries in Table S33 are z-score from negative log10[GI50(molar)] data across NCI-60 for single drug.
 
 ############# CTRP_DATASET #############  
                                                   
-Table S1. Gene expression profiles for 720 cancer cell lines and 7770 genes. The first column shows the COSMIC identifiers of the 720 cancer cell lines, and the first row shows the HGNC symbols of the 7770 genes.  
+Table S40. Gene expression profiles for 720 cancer cell lines and 7770 genes. The first column shows the COSMIC identifiers of the 720 cancer cell lines, and the first row shows the HGNC symbols of the 7770 genes.  
 
-Table S2. Drug response data (i.e. the normalized area under the drug response curve, AUC readout) for 720 cancer cell lines and 63 drugs. The first column shows the COSMIC identifiers of the 734 cancer cell lines, and the first row shows the 63 drugs.
+Table S41. Drug response data (i.e. the normalized area under the drug response curve, AUC readout) for 720 cancer cell lines and 63 drugs. The first column shows the COSMIC identifiers of the 734 cancer cell lines, and the first row shows the 63 drugs.
 
-Table S3. The annotation of 720 cell lines in CTRP v2.1 dataset used for independent validation. The three columns are cell line names, primary tissue sites which cell lines are from and histology category which cell lines belong to, respectively.
+Table S42. The annotation of 720 cell lines in CTRP v2.1 dataset used for independent validation. The three columns are cell line names, primary tissue sites which cell lines are from and histology category which cell lines belong to, respectively.
 
-Table S4. The common drugs between training dataset (GDSC) and testing dataset (CCLE or CTRP v2.1). The "GDSC_CCLE" (or "GDSC_CTRP") sheet provides the selected common drugs and their names in the GDSC and CCLE (or CTRP v2.1)  dataset, respectively.
+Table S43. The common drugs between training dataset (GDSC) and testing dataset (CCLE or CTRP v2.1). The "GDSC_CCLE" (or "GDSC_CTRP") sheet provides the selected common drugs and their names in the GDSC and CCLE (or CTRP v2.1)  dataset, respectively.
 
 
 
